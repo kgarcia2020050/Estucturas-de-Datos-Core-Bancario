@@ -5,6 +5,7 @@ C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\Utils\obj\Debug\ne
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\Utils\obj\Debug\net8.0\Utils.AssemblyInfoInputs.cache
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\Utils\obj\Debug\net8.0\Utils.AssemblyInfo.cs
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\Utils\obj\Debug\net8.0\Utils.csproj.CoreCompileInputs.cache
+C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\Utils\obj\Debug\net8.0\Utils.sourcelink.json
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\Utils\obj\Debug\net8.0\Utils.dll
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\Utils\obj\Debug\net8.0\refint\Utils.dll
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\Utils\obj\Debug\net8.0\Utils.pdb

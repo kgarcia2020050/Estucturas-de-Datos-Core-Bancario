@@ -1,5 +1,6 @@
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\bin\Debug\net8.0\appsettings.json
+C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\bin\Debug\net8.0\JSONData\Clientes.json
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\bin\Debug\net8.0\ProyectiFinal.staticwebassets.endpoints.json
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\bin\Debug\net8.0\ProyectiFinal.exe
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\bin\Debug\net8.0\ProyectiFinal.deps.json
@@ -10,6 +11,8 @@ C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\bin\
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\bin\Debug\net8.0\Utils.dll
+C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\bin\Debug\net8.0\Utils.pdb
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\obj\Debug\net8.0\ProyectiFinal.csproj.AssemblyReference.cache
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\obj\Debug\net8.0\ProyectiFinal.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\obj\Debug\net8.0\ProyectiFinal.AssemblyInfoInputs.cache
@@ -35,5 +38,3 @@ C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\obj\
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\obj\Debug\net8.0\ProyectiFinal.pdb
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\obj\Debug\net8.0\ProyectiFinal.genruntimeconfig.cache
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\obj\Debug\net8.0\ref\ProyectiFinal.dll
-C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\bin\Debug\net8.0\Utils.dll
-C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\bin\Debug\net8.0\Utils.pdb

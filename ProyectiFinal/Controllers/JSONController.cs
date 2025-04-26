@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Utils.JSONParser;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,6 +9,9 @@ namespace ProyectiFinal.Controllers
     [ApiController]
     public class JSONController : ControllerBase
     {
+
+        private JSONParser _jsonParser = new JSONParser();
+
         // GET: api/<JSONController>
         [HttpGet]
         public IEnumerable<string> Get()
@@ -19,7 +23,7 @@ namespace ProyectiFinal.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value";
+            return _jsonParser.Parse("") ? "true" : "false";
         }
 
         // POST api/<JSONController>

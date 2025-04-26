@@ -1,0 +1,209 @@
+{
+  "clientes": [
+    {
+      "dpi": "123456789",
+      "nombre": "Juan",
+      "apellido": "Pérez",
+      "direccion": "Calle Principal #123",
+      "telefono": "12345678",
+      "email": "juan.perez@example.com",
+      "genero": "M",
+      "nacimiento": "1/1/2001",
+      "nacionalidad": "GT",
+      "nit": 123456,
+      "estado": 1,
+      "tarjetas": [
+        {
+          "numeroTarjeta": "4111-1111-1111-1111",
+          "fechaExpiracion": "12/25",
+          "cvv": "123",
+          "pin": "5678",
+          "limiteCredito": 5000,
+          "saldoActual": 2500,
+          "estado": 1,
+          "tipo": "Debito",
+          "historialTransacciones": [
+            {
+              "fecha": "2023-10-01",
+              "hora": "14:30:00",
+              "monto": 150,
+              "tipo": "compra",
+              "descripcion": "Supermercado",
+              "autorizada": true
+            }
+          ],
+          "solicitudes": [
+            {
+              "fechaSolicitud": "2023-09-15",
+              "montoSolicitado": 2000,
+              "estado": "pendiente",
+              "tipo": "Aumento",
+              "fechaRenovacion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dpi": "987654321",
+      "nombre": "María",
+      "apellido": "García",
+      "direccion": "Avenida Reforma #45",
+      "telefono": "87654321",
+      "email": "maria.garcia@example.com",
+      "genero": "F",
+      "nacimiento": "15/5/1995",
+      "nacionalidad": "MX",
+      "nit": 654321,
+      "estado": 1,
+      "tarjetas": [
+        {
+          "numeroTarjeta": "5500-1234-5678-9012",
+          "fechaExpiracion": "06/27",
+          "cvv": "789",
+          "pin": "2468",
+          "limiteCredito": 10000,
+          "saldoActual": 7250.5,
+          "estado": 1,
+          "tipo": "Credito",
+          "historialTransacciones": [
+            {
+              "fecha": "2023-10-02",
+              "hora": "19:15:00",
+              "monto": 450,
+              "tipo": "compra",
+              "descripcion": "Tienda departamental",
+              "autorizada": true
+            },
+            {
+              "fecha": "2023-10-03",
+              "hora": "08:45:00",
+              "monto": 75.5,
+              "tipo": "retiro",
+              "descripcion": "Cajero automático",
+              "autorizada": false
+            }
+          ],
+          "solicitudes": [
+            {
+              "fechaSolicitud": "2023-10-01",
+              "montoSolicitado": 5000,
+              "estado": "aprobado",
+              "tipo": "Aumento",
+              "fechaRenovacion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dpi": "112233445",
+      "nombre": "Pedro",
+      "apellido": "Martínez",
+      "direccion": "Zona 10, Edificio Azul",
+      "telefono": "33445566",
+      "email": "pedro.martinez@example.com",
+      "genero": "M",
+      "nacimiento": "30/7/1988",
+      "nacionalidad": "SV",
+      "nit": 789012,
+      "estado": 0,
+      "tarjetas": [
+        {
+          "numeroTarjeta": "3400-0000-0000-009",
+          "fechaExpiracion": "09/24",
+          "cvv": "001",
+          "pin": "1357",
+          "limiteCredito": 15000,
+          "saldoActual": 12400,
+          "estado": 0,
+          "tipo": "Credito",
+          "historialTransacciones": [
+            {
+              "fecha": "2023-09-28",
+              "hora": "12:00:00",
+              "monto": 2000,
+              "tipo": "transferencia",
+              "descripcion": "Pago de factura",
+              "autorizada": true
+            }
+          ],
+          "solicitudes": [
+            {
+              "fechaSolicitud": "2023-09-30",
+              "montoSolicitado": null,
+              "estado": "pendiente",
+              "tipo": "Desbloqueo",
+              "fechaRenovacion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dpi": "665544332",
+      "nombre": "Lucía",
+      "apellido": "Hernández",
+      "direccion": "Colonia Las Flores #78",
+      "telefono": "55443322",
+      "email": "lucia.hernandez@example.com",
+      "genero": "F",
+      "nacimiento": "10/12/1990",
+      "nacionalidad": "HN",
+      "nit": 112233,
+      "estado": 1,
+      "tarjetas": [
+        {
+          "numeroTarjeta": "3782-822463-10005",
+          "fechaExpiracion": "03/26",
+          "cvv": "456",
+          "pin": "8642",
+          "limiteCredito": 8000,
+          "saldoActual": 3200.75,
+          "estado": 1,
+          "tipo": "Credito",
+          "historialTransacciones": [
+            {
+              "fecha": "2023-10-05",
+              "hora": "16:20:00",
+              "monto": 1200,
+              "tipo": "compra",
+              "descripcion": "Equipo electrónico",
+              "autorizada": true
+            }
+          ],
+          "solicitudes": [
+            {
+              "fechaSolicitud": "2023-10-10",
+              "montoSolicitado": null,
+              "estado": "aprobado",
+              "tipo": "Renovacion",
+              "fechaRenovacion": "2026-03-01"
+            },
+            {
+              "fechaSolicitud": "2023-10-10",
+              "montoSolicitado": 3000,
+              "estado": "pendiente",
+              "tipo": "Aumento",
+              "fechaRenovacion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dpi": "DPI",
+      "nombre": "Nombre",
+      "apellido": "Apellido",
+      "direccion": "Direccion",
+      "telefono": "Telefono",
+      "email": "Email",
+      "genero": "M",
+      "nacimiento": "Nacimiento",
+      "nacionalidad": "Nacionalidad",
+      "nit": 11111,
+      "estado": 1,
+      "tarjetas": []
+    }
+  ]
+}
