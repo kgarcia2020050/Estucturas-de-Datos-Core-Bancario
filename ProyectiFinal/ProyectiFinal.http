@@ -1,0 +1,11 @@
+@ProyectiFinal_HostAddress = http://localhost:5089
+
+GET {{ProyectiFinal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{ProyectiFinal_HostAddress}}/json/
+Accept: application/json
+
+###
