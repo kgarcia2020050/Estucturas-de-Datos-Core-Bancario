@@ -3,7 +3,7 @@
     {
       "dpi": "123456789",
       "nombre": "Juan",
-      "apellido": "Pérez",
+      "apellido": "P\u00E9rez",
       "direccion": "Calle Principal #123",
       "telefono": "12345678",
       "email": "juan.perez@example.com",
@@ -46,8 +46,8 @@
     },
     {
       "dpi": "987654321",
-      "nombre": "María",
-      "apellido": "García",
+      "nombre": "Mar\u00EDa",
+      "apellido": "Garc\u00EDa",
       "direccion": "Avenida Reforma #45",
       "telefono": "87654321",
       "email": "maria.garcia@example.com",
@@ -80,7 +80,7 @@
               "hora": "08:45:00",
               "monto": 75.5,
               "tipo": "retiro",
-              "descripcion": "Cajero automático",
+              "descripcion": "Cajero autom\u00E1tico",
               "autorizada": false
             }
           ],
@@ -99,7 +99,7 @@
     {
       "dpi": "112233445",
       "nombre": "Pedro",
-      "apellido": "Martínez",
+      "apellido": "Mart\u00EDnez",
       "direccion": "Zona 10, Edificio Azul",
       "telefono": "33445566",
       "email": "pedro.martinez@example.com",
@@ -142,8 +142,8 @@
     },
     {
       "dpi": "665544332",
-      "nombre": "Lucía",
-      "apellido": "Hernández",
+      "nombre": "Luc\u00EDa",
+      "apellido": "Hern\u00E1ndez",
       "direccion": "Colonia Las Flores #78",
       "telefono": "55443322",
       "email": "lucia.hernandez@example.com",
@@ -168,7 +168,7 @@
               "hora": "16:20:00",
               "monto": 1200,
               "tipo": "compra",
-              "descripcion": "Equipo electrónico",
+              "descripcion": "Equipo electr\u00F3nico",
               "autorizada": true
             }
           ],
@@ -216,6 +216,34 @@
       "nacimiento": "Nacimiento",
       "nacionalidad": "Nacionalidad",
       "nit": 11111,
+      "estado": 1,
+      "tarjetas": []
+    },
+    {
+      "dpi": "3581244680101",
+      "nombre": "Denisse",
+      "apellido": "Navas",
+      "direccion": "24 calle",
+      "telefono": "47953795",
+      "email": "marynavas170204@gmail.com",
+      "genero": "F",
+      "nacimiento": "17/02/04",
+      "nacionalidad": "Guatemalteca",
+      "nit": 55555,
+      "estado": 1,
+      "tarjetas": []
+    },
+    {
+      "dpi": "3581244680101",
+      "nombre": "Denisse",
+      "apellido": "Navas",
+      "direccion": "24 calle",
+      "telefono": "47953795",
+      "email": "marynavas170204@gmail.com",
+      "genero": "F",
+      "nacimiento": "17/02/04",
+      "nacionalidad": "Guatemalteca",
+      "nit": 55555,
       "estado": 1,
       "tarjetas": []
     },

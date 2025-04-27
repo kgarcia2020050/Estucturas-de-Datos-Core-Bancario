@@ -36,10 +36,10 @@ namespace Utils.models
         public TipoTarjeta Tipo { get; set; }
 
         [JsonPropertyName("historialTransacciones")]
-        public List<Transaccion> HistorialTransacciones { get; set; }
+        public List<Transaccion>? HistorialTransacciones { get; set; }
 
         [JsonPropertyName("solicitudes")]
-        public List<Solicitud> Solicitudes { get; set; }
+        public List<Solicitud>? Solicitudes { get; set; }
     }
 
 }

@@ -11,26 +11,26 @@ namespace Utils.JSONParser
 {
     public class JSONParser
     {
-
         public JSONParser() { }
-
 
         public bool Parse(string json)
         {
             try
             {
-                //string rutaArchivo = @"C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\JSONData\Clientes.json";
-                string rutaArchivo = @"C:\Users\Alba\OneDrive\Escritorio\Programacion3\Estucturas-de-Datos-Core-Bancario\ProyectiFinal\JSONData\Clientes.json";
-                Debug.WriteLine("la ruta es " + rutaArchivo);
-                Debug.WriteLine("CAMBIO DE PRUEBA");
+
+
+                string path = Directory.GetCurrentDirectory();
+                string jsonFilePath = Path.Combine(path, "JSONData", "Clientes.json");
+
+
                 Clientes listaDatos;
 
-                if (File.Exists(rutaArchivo))
+                if (File.Exists(jsonFilePath))
                 {
 
                     Debug.WriteLine("El archivo existe, se procederá a leerlo.");
 
-                    string jsonExistente = File.ReadAllText(rutaArchivo);
+                    string jsonExistente = File.ReadAllText(jsonFilePath);
                     Debug.WriteLine(jsonExistente);
                     listaDatos = JsonSerializer.Deserialize<Clientes>(jsonExistente);
                 }
@@ -81,7 +81,7 @@ namespace Utils.JSONParser
 
                 Debug.WriteLine("Se ha convertido a JSON.");
 
-                File.WriteAllText(rutaArchivo, nuevoJson);
+                File.WriteAllText(jsonFilePath, nuevoJson);
 
                 Debug.WriteLine("Datos insertados correctamente!");
 

@@ -463,23 +463,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alba\\.nuget\\packages\\": {},
+    "C:\\Users\\KennethGarcia\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alba\\OneDrive\\Escritorio\\Programacion3\\Estucturas-de-Datos-Core-Bancario\\ProyectiFinal\\ProyectiFinal.csproj",
+      "projectUniqueName": "C:\\Users\\KennethGarcia\\Documents\\C#\\Universidad\\ProyectoFinal\\ProyectiFinal\\ProyectiFinal.csproj",
       "projectName": "ProyectiFinal",
-      "projectPath": "C:\\Users\\Alba\\OneDrive\\Escritorio\\Programacion3\\Estucturas-de-Datos-Core-Bancario\\ProyectiFinal\\ProyectiFinal.csproj",
-      "packagesPath": "C:\\Users\\Alba\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alba\\OneDrive\\Escritorio\\Programacion3\\Estucturas-de-Datos-Core-Bancario\\ProyectiFinal\\obj\\",
+      "projectPath": "C:\\Users\\KennethGarcia\\Documents\\C#\\Universidad\\ProyectoFinal\\ProyectiFinal\\ProyectiFinal.csproj",
+      "packagesPath": "C:\\Users\\KennethGarcia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\KennethGarcia\\Documents\\C#\\Universidad\\ProyectoFinal\\ProyectiFinal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Alba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\KennethGarcia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -494,8 +494,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Alba\\OneDrive\\Escritorio\\Programacion3\\Estucturas-de-Datos-Core-Bancario\\Utils\\Utils.csproj": {
-              "projectPath": "C:\\Users\\Alba\\OneDrive\\Escritorio\\Programacion3\\Estucturas-de-Datos-Core-Bancario\\Utils\\Utils.csproj"
+            "C:\\Users\\KennethGarcia\\Documents\\C#\\Universidad\\ProyectoFinal\\Utils\\Utils.csproj": {
+              "projectPath": "C:\\Users\\KennethGarcia\\Documents\\C#\\Universidad\\ProyectoFinal\\Utils\\Utils.csproj"
             }
           }
         }

@@ -12,33 +12,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -50,17 +24,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/Cliente"
               }
             },
             "text/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/Cliente"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/Cliente"
               }
             }
           }
@@ -70,77 +44,26 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/api/JSON/{id}": {
-      "get": {
-        "tags": [
-          "JSON"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "string"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "string"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "string"
-                }
-              }
-            }
-          }
-        }
       },
       "put": {
         "tags": [
           "JSON"
         ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/Cliente"
               }
             },
             "text/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/Cliente"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/Cliente"
               }
             }
           }
@@ -155,17 +78,25 @@
         "tags": [
           "JSON"
         ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Requests"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Requests"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Requests"
+              }
             }
           }
-        ],
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -174,5 +105,204 @@
       }
     }
   },
-  "components": { }
+  "components": {
+    "schemas": {
+      "Cliente": {
+        "type": "object",
+        "properties": {
+          "dpi": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "apellido": {
+            "type": "string",
+            "nullable": true
+          },
+          "direccion": {
+            "type": "string",
+            "nullable": true
+          },
+          "telefono": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "genero": {
+            "$ref": "#/components/schemas/Genero"
+          },
+          "nacimiento": {
+            "type": "string",
+            "nullable": true
+          },
+          "nacionalidad": {
+            "type": "string",
+            "nullable": true
+          },
+          "nit": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "estado": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tarjetas": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Tarjeta"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Genero": {
+        "enum": [
+          0,
+          1
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "Requests": {
+        "type": "object",
+        "properties": {
+          "dpi": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Solicitud": {
+        "type": "object",
+        "properties": {
+          "fechaSolicitud": {
+            "type": "string",
+            "nullable": true
+          },
+          "montoSolicitado": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "estado": {
+            "type": "string",
+            "nullable": true
+          },
+          "tipo": {
+            "$ref": "#/components/schemas/TipoSolicitud"
+          },
+          "fechaRenovacion": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Tarjeta": {
+        "type": "object",
+        "properties": {
+          "numeroTarjeta": {
+            "type": "string",
+            "nullable": true
+          },
+          "fechaExpiracion": {
+            "type": "string",
+            "nullable": true
+          },
+          "cvv": {
+            "type": "string",
+            "nullable": true
+          },
+          "pin": {
+            "type": "string",
+            "nullable": true
+          },
+          "limiteCredito": {
+            "type": "number",
+            "format": "double"
+          },
+          "saldoActual": {
+            "type": "number",
+            "format": "double"
+          },
+          "estado": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tipo": {
+            "$ref": "#/components/schemas/TipoTarjeta"
+          },
+          "historialTransacciones": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Transaccion"
+            },
+            "nullable": true
+          },
+          "solicitudes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Solicitud"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TipoSolicitud": {
+        "enum": [
+          "Aumento",
+          "Desbloqueo",
+          "Renovacion"
+        ],
+        "type": "string"
+      },
+      "TipoTarjeta": {
+        "enum": [
+          0,
+          1
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "Transaccion": {
+        "type": "object",
+        "properties": {
+          "fecha": {
+            "type": "string",
+            "nullable": true
+          },
+          "hora": {
+            "type": "string",
+            "nullable": true
+          },
+          "monto": {
+            "type": "number",
+            "format": "double"
+          },
+          "tipo": {
+            "type": "string",
+            "nullable": true
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "autorizada": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
 }

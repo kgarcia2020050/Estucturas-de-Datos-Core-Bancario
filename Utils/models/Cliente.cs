@@ -45,6 +45,14 @@ namespace Utils.models
         public int Estado { get; set; }
 
         [JsonPropertyName("tarjetas")]
-        public List<Tarjeta> Tarjetas { get; set; }
+        public List<Tarjeta>? Tarjetas { get; set; }
+
+
+        public override string ToString()
+        {
+            return $"DPI: {Dpi}, Nombre: {Nombre}, Apellido: {Apellido}, Direccion: {Direccion}, Telefono: {Telefono}, Email: {Email}, Genero: {Genero}, Nacimiento: {Nacimiento}, Nacionalidad: {Nacionalidad}, Nit: {Nit}, Estado: {Estado}";
+        }
+
+
     }
 }
