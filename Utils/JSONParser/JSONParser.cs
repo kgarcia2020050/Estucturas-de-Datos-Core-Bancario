@@ -22,6 +22,7 @@ namespace Utils.JSONParser
                 //string rutaArchivo = @"C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\JSONData\Clientes.json";
                 string rutaArchivo = @"C:\Users\Alba\OneDrive\Escritorio\Programacion3\Estucturas-de-Datos-Core-Bancario\ProyectiFinal\JSONData\Clientes.json";
                 Debug.WriteLine("la ruta es " + rutaArchivo);
+                Debug.WriteLine("CAMBIO DE PRUEBA");
                 Clientes listaDatos;
 
                 if (File.Exists(rutaArchivo))
