@@ -204,6 +204,34 @@
       "nit": 11111,
       "estado": 1,
       "tarjetas": []
+    },
+    {
+      "dpi": "DPI",
+      "nombre": "Nombre",
+      "apellido": "Apellido",
+      "direccion": "Direccion",
+      "telefono": "Telefono",
+      "email": "Email",
+      "genero": "M",
+      "nacimiento": "Nacimiento",
+      "nacionalidad": "Nacionalidad",
+      "nit": 11111,
+      "estado": 1,
+      "tarjetas": []
+    },
+    {
+      "dpi": "3581244680101",
+      "nombre": "Denisse",
+      "apellido": "Navas",
+      "direccion": "24 calle",
+      "telefono": "47953795",
+      "email": "marynavas170204@gmail.com",
+      "genero": "F",
+      "nacimiento": "17/02/04",
+      "nacionalidad": "Guatemalteca",
+      "nit": 55555,
+      "estado": 1,
+      "tarjetas": []
     }
   ]
 }

@@ -19,7 +19,9 @@ namespace Utils.JSONParser
         {
             try
             {
-                string rutaArchivo = @"C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\JSONData\Clientes.json";
+                //string rutaArchivo = @"C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\JSONData\Clientes.json";
+                string rutaArchivo = @"C:\Users\Alba\OneDrive\Escritorio\Programacion3\Estucturas-de-Datos-Core-Bancario\ProyectiFinal\JSONData\Clientes.json";
+                Debug.WriteLine("la ruta es " + rutaArchivo);
                 Clientes listaDatos;
 
                 if (File.Exists(rutaArchivo))
@@ -44,17 +46,17 @@ namespace Utils.JSONParser
 
                 Cliente nuevoDato = new Cliente()
                 {
-                    Apellido = "Apellido",
-                    Nombre = "Nombre",
-                    Direccion = "Direccion",
-                    Telefono = "Telefono",
-                    Email = "Email",
-                    Dpi = "DPI",
+                    Apellido = "Navas",
+                    Nombre = "Denisse",
+                    Direccion = "24 calle",
+                    Telefono = "47953795",
+                    Email = "marynavas170204@gmail.com",
+                    Dpi = "3581244680101",
                     Estado = 1,
-                    Genero = enums.Genero.M,
-                    Nacimiento = "Nacimiento",
-                    Nacionalidad = "Nacionalidad",
-                    Nit = 11111,
+                    Genero = enums.Genero.F,
+                    Nacimiento = "17/02/04",
+                    Nacionalidad = "Guatemalteca",
+                    Nit = 55555,
                     Tarjetas = new List<Tarjeta>()
                 };
 
