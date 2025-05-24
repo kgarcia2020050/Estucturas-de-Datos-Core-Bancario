@@ -32,7 +32,6 @@ C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\obj\
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ProyectiFinal.props
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ProyectiFinal.props
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\obj\Debug\net8.0\Proyecti.24503BBF.Up2Date
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\obj\Debug\net8.0\ProyectiFinal.dll
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\obj\Debug\net8.0\refint\ProyectiFinal.dll
