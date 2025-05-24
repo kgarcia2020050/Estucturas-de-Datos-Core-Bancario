@@ -116,7 +116,7 @@ https://localhost:7227/swagger
 Ejemplo (curl)
 
 ```
-curl -X POST https://localhost:5001/api/Client/create \
+curl -X POST https://localhost:7227/api/Client/create \
 -H "Content-Type: application/json" \
 -d '{ "dpi": "3589978600101", "nombre": "Kenneth", "apellido": "Garcia", "direccion": "Avenida Reforma 429 Edif. 277 , Depto. 335, Guastatoya, GT 63578", "telefono": "12345678", "email": "kgarcia@gmail.com", "genero": "M", "nacimiento": "30/09/2002", "nacionalidad": "Guatemalteco", "nit": 123456789 }'
 ```
@@ -136,7 +136,7 @@ curl -X POST https://localhost:5001/api/Client/create \
 Ejemplo (curl)
 
 ```
-curl -X POST https://localhost:5001/api/Cards/addCard \
+curl -X POST https://localhost:7227/api/Cards/addCard \
 -H "Content-Type: application/json" \
 -d '{ "dpi": "3589978600101", "numeroTarjeta": "1234567890987665", "fechaExpiracion": "10/20", "cvv": "123", "pin": "1234", "limiteCredito": 0, "saldoActual": 10000, "tipo": "DEBITO" }'
 ```
