@@ -5,41 +5,76 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using Utils.enums;
+using Utils.EstructuraDeDatos.ListasEnlazadas.Colas;
+using Utils.EstructuraDeDatos.ListasEnlazadas.Pilas;
 
 namespace Utils.models
 {
     public class Tarjeta
     {
+
+        public Tarjeta()
+        {
+            transacciones = new Pila();
+            colaSolicitudes = new Cola();
+        }
+
         [JsonPropertyName("numeroTarjeta")]
-        public string NumeroTarjeta { get; set; }
+        public string numeroTarjeta { get; set; }
 
         [JsonPropertyName("fechaExpiracion")]
-        public string FechaExpiracion { get; set; }
+        public string fechaExpiracion { get; set; }
 
         [JsonPropertyName("cvv")]
-        public string Cvv { get; set; }
+        public string cvv { get; set; }
 
         [JsonPropertyName("pin")]
-        public string Pin { get; set; }
+        public string pin { get; set; }
 
         [JsonPropertyName("limiteCredito")]
-        public double LimiteCredito { get; set; }
+        public double limiteCredito { get; set; }
 
         [JsonPropertyName("saldoActual")]
-        public double SaldoActual { get; set; }
+        public double saldoActual { get; set; }
 
         [JsonPropertyName("estado")]
-        public int Estado { get; set; }
+        public int estado { get; set; }
 
         [JsonPropertyName("tipo")]
         [JsonConverter(typeof(JsonStringEnumConverter))]
-        public TipoTarjeta Tipo { get; set; }
+        public TipoTarjeta tipo { get; set; }
 
         [JsonPropertyName("historialTransacciones")]
-        public List<Transaccion>? HistorialTransacciones { get; set; }
+        public List<Transaccion>? historialTransacciones { get; set; }
+
+        [JsonIgnore]
+        public Pila? transacciones { get; set; }
+
+
+        [JsonIgnore]
+        public Cola? colaSolicitudes { get; set; }
+
 
         [JsonPropertyName("solicitudes")]
-        public List<Solicitud>? Solicitudes { get; set; }
+        public List<Solicitud>? solicitudes { get; set; }
+
+
+        public Tarjeta clone()
+        {
+            Tarjeta tarjeta = new Tarjeta();
+            tarjeta.numeroTarjeta = this.numeroTarjeta;
+            tarjeta.fechaExpiracion = this.fechaExpiracion;
+            tarjeta.cvv = this.cvv;
+            tarjeta.pin = this.pin;
+            tarjeta.limiteCredito = this.limiteCredito;
+            tarjeta.saldoActual = this.saldoActual;
+            tarjeta.estado = this.estado;
+            tarjeta.tipo = this.tipo;
+            tarjeta.historialTransacciones = this.historialTransacciones;
+            tarjeta.transacciones = this.transacciones;
+            tarjeta.colaSolicitudes = this.colaSolicitudes;
+            return tarjeta;
+        }
     }
 
 }

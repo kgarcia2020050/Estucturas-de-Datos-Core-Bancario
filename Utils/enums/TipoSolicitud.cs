@@ -17,6 +17,11 @@ namespace Utils.enums
         Desbloqueo,
 
         [JsonPropertyName("RENOVACION")]
-        Renovacion
+        Renovacion,
+
+        [JsonPropertyName("PIN")]
+        Pin,
+        [JsonPropertyName("Bloqueo")]
+        Bloqueo,
     }
 }

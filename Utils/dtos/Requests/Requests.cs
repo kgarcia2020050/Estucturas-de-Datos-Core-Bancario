@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Utils.models.Requests
+namespace Utils.dtos.Requests
 {
     public class Requests
     {

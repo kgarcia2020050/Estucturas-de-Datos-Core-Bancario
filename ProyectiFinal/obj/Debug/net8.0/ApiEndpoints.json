@@ -1,8 +1,184 @@
 [
   {
-    "ContainingType": "ProyectiFinal.Controllers.JSONController",
-    "Method": "Get",
-    "RelativePath": "api/JSON",
+    "ContainingType": "ProyectiFinal.Controllers.CardsController",
+    "Method": "Post",
+    "RelativePath": "api/Cards/addCard",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "Utils.dtos.Requests.CreateUpdateCards",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectiFinal.Controllers.CardsController",
+    "Method": "incrementLimit",
+    "RelativePath": "api/Cards/incrementLimit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incrementLimit",
+        "Type": "Utils.dtos.Requests.Managements",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectiFinal.Controllers.CardsController",
+    "Method": "makePayments",
+    "RelativePath": "api/Cards/makePayments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "makePayments",
+        "Type": "Utils.dtos.Requests.MakePayments",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectiFinal.Controllers.CardsController",
+    "Method": "retrieveBalances",
+    "RelativePath": "api/Cards/retrieveBalances",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "retrieveBalances",
+        "Type": "Utils.dtos.Requests.RetrieveBalances",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectiFinal.Controllers.CardsController",
+    "Method": "retrieveTransactions",
+    "RelativePath": "api/Cards/retrieveTransactions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "retrieveTransactions",
+        "Type": "Utils.dtos.Requests.RetrieveBalances",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectiFinal.Controllers.CardsController",
+    "Method": "updateExpirationDate",
+    "RelativePath": "api/Cards/updateExpirationDate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateExpirationDate",
+        "Type": "Utils.dtos.Requests.Managements",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectiFinal.Controllers.CardsController",
+    "Method": "updatePin",
+    "RelativePath": "api/Cards/updatePin",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatePin",
+        "Type": "Utils.dtos.Requests.Managements",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectiFinal.Controllers.CardsController",
+    "Method": "updateStatus",
+    "RelativePath": "api/Cards/updateStatus",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateStatus",
+        "Type": "Utils.dtos.Requests.Managements",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectiFinal.Controllers.ClientController",
+    "Method": "Post",
+    "RelativePath": "api/Client/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "client",
+        "Type": "Utils.models.Requests.CreateUpdateClient",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectiFinal.Controllers.ClientController",
+    "Method": "Delete",
+    "RelativePath": "api/Client/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dpi",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectiFinal.Controllers.ClientController",
+    "Method": "search",
+    "RelativePath": "api/Client/findByDpi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dpi",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectiFinal.Controllers.ClientController",
+    "Method": "GetActive",
+    "RelativePath": "api/Client/getActiveClients",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -10,48 +186,58 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ProyectiFinal.Controllers.JSONController",
-    "Method": "Post",
-    "RelativePath": "api/JSON",
+    "ContainingType": "ProyectiFinal.Controllers.ClientController",
+    "Method": "Get",
+    "RelativePath": "api/Client/getAllClients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectiFinal.Controllers.ClientController",
+    "Method": "uploadClients",
+    "RelativePath": "api/Client/initialData",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "client",
-        "Type": "Utils.models.Cliente",
+        "Name": "clientes",
+        "Type": "Utils.models.Clientes",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ProyectiFinal.Controllers.JSONController",
+    "ContainingType": "ProyectiFinal.Controllers.ClientController",
     "Method": "Put",
-    "RelativePath": "api/JSON",
+    "RelativePath": "api/Client/update",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "client",
-        "Type": "Utils.models.Cliente",
+        "Type": "Utils.models.Requests.CreateUpdateClient",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ProyectiFinal.Controllers.JSONController",
-    "Method": "Delete",
-    "RelativePath": "api/JSON",
-    "HttpMethod": "DELETE",
+    "ContainingType": "ProyectiFinal.Controllers.ClientController",
+    "Method": "updateStatus",
+    "RelativePath": "api/Client/updateStatus",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dpi",
-        "Type": "Utils.models.Requests.Requests",
+        "Name": "client",
+        "Type": "Utils.dtos.Requests.ActiveInactiveRegister",
         "IsRequired": true
       }
     ],

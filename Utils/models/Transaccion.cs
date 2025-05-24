@@ -10,22 +10,22 @@ namespace Utils.models
     public class Transaccion
     {
         [JsonPropertyName("fecha")]
-        public string Fecha { get; set; }
+        public string fecha { get; set; }
 
         [JsonPropertyName("hora")]
-        public string Hora { get; set; }
+        public string hora { get; set; }
 
         [JsonPropertyName("monto")]
-        public double Monto { get; set; }
+        public double monto { get; set; }
 
         [JsonPropertyName("tipo")]
-        public string Tipo { get; set; }
+        public string tipo { get; set; }
 
         [JsonPropertyName("descripcion")]
-        public string Descripcion { get; set; }
+        public string descripcion { get; set; }
 
         [JsonPropertyName("autorizada")]
-        public bool Autorizada { get; set; }
+        public bool autorizada { get; set; }
     }
 
 }

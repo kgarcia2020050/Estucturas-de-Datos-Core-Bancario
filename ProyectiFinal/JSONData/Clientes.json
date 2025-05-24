@@ -1,265 +1,1034 @@
 {
   "clientes": [
     {
-      "dpi": "123456789",
-      "nombre": "Juan",
-      "apellido": "P\u00E9rez",
-      "direccion": "Calle Principal #123",
-      "telefono": "12345678",
-      "email": "juan.perez@example.com",
+      "dpi": "3743297981391",
+      "nombre": "Pilar",
+      "apellido": "Osorio",
+      "direccion": "Cerrada República Dominicana 982 Edif. 215 , Depto. 570, Vieja Malta, TAMPS 90609-5417",
+      "telefono": "1-604-062-3533x2582",
+      "email": "armando44@gmail.com",
       "genero": "M",
-      "nacimiento": "1/1/2001",
-      "nacionalidad": "GT",
-      "nit": 123456,
+      "nacimiento": "1987-11-24",
+      "nacionalidad": "Guatemalteca",
+      "nit": 2912831,
       "estado": 1,
       "tarjetas": [
         {
-          "numeroTarjeta": "4111-1111-1111-1111",
-          "fechaExpiracion": "12/25",
-          "cvv": "123",
-          "pin": "5678",
-          "limiteCredito": 5000,
-          "saldoActual": 2500,
+          "numeroTarjeta": "676377541641",
+          "fechaExpiracion": "05/27",
+          "cvv": "181",
+          "pin": "2490",
+          "limiteCredito": 0,
+          "saldoActual": 2681.8,
           "estado": 1,
-          "tipo": "Debito",
+          "tipo": "DEBITO",
           "historialTransacciones": [
             {
-              "fecha": "2023-10-01",
-              "hora": "14:30:00",
-              "monto": 150,
-              "tipo": "compra",
-              "descripcion": "Supermercado",
-              "autorizada": true
-            }
-          ],
-          "solicitudes": [
-            {
-              "fechaSolicitud": "2023-09-15",
-              "montoSolicitado": 2000,
-              "estado": "pendiente",
-              "tipo": "Aumento",
-              "fechaRenovacion": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "dpi": "987654321",
-      "nombre": "Mar\u00EDa",
-      "apellido": "Garc\u00EDa",
-      "direccion": "Avenida Reforma #45",
-      "telefono": "87654321",
-      "email": "maria.garcia@example.com",
-      "genero": "F",
-      "nacimiento": "15/5/1995",
-      "nacionalidad": "MX",
-      "nit": 654321,
-      "estado": 1,
-      "tarjetas": [
-        {
-          "numeroTarjeta": "5500-1234-5678-9012",
-          "fechaExpiracion": "06/27",
-          "cvv": "789",
-          "pin": "2468",
-          "limiteCredito": 10000,
-          "saldoActual": 7250.5,
-          "estado": 1,
-          "tipo": "Credito",
-          "historialTransacciones": [
-            {
-              "fecha": "2023-10-02",
-              "hora": "19:15:00",
-              "monto": 450,
-              "tipo": "compra",
-              "descripcion": "Tienda departamental",
+              "fecha": "2025-02-08",
+              "hora": "05:50:27",
+              "monto": 282.53,
+              "tipo": "Compra",
+              "descripcion": "quaerat",
               "autorizada": true
             },
             {
-              "fecha": "2023-10-03",
-              "hora": "08:45:00",
-              "monto": 75.5,
-              "tipo": "retiro",
-              "descripcion": "Cajero autom\u00E1tico",
+              "fecha": "2025-01-01",
+              "hora": "11:04:14",
+              "monto": 135.74,
+              "tipo": "Compra",
+              "descripcion": "officia",
               "autorizada": false
             }
           ],
           "solicitudes": [
             {
-              "fechaSolicitud": "2023-10-01",
-              "montoSolicitado": 5000,
-              "estado": "aprobado",
-              "tipo": "Aumento",
-              "fechaRenovacion": null
+              "fechaSolicitud": "2025-02-11",
+              "montoSolicitado": 3488.15,
+              "estado": "Rechazada",
+              "tipo": "DESBLOQUEO",
+              "fechaRenovacion": "2025-06-23"
+            },
+            {
+              "fechaSolicitud": "2025-02-05",
+              "montoSolicitado": 3208.12,
+              "estado": "Aprobada",
+              "tipo": "RENOVACION",
+              "fechaRenovacion": "2025-08-17"
+            }
+          ]
+        },
+        {
+          "numeroTarjeta": "4229936245409737",
+          "fechaExpiracion": "03/31",
+          "cvv": "425",
+          "pin": "9356",
+          "limiteCredito": 5739,
+          "saldoActual": 4456.99,
+          "estado": 1,
+          "tipo": "CREDITO",
+          "historialTransacciones": [
+            {
+              "fecha": "2025-05-08",
+              "hora": "01:04:40",
+              "monto": 164.9,
+              "tipo": "Compra",
+              "descripcion": "commodi",
+              "autorizada": false
+            },
+            {
+              "fecha": "2025-02-04",
+              "hora": "00:55:14",
+              "monto": 203.64,
+              "tipo": "Compra",
+              "descripcion": "sequi",
+              "autorizada": false
+            }
+          ],
+          "solicitudes": [
+            {
+              "fechaSolicitud": "2025-03-31",
+              "montoSolicitado": 4713.97,
+              "estado": "Aprobada",
+              "tipo": "AUMENTO",
+              "fechaRenovacion": "2025-06-16"
+            },
+            {
+              "fechaSolicitud": "2025-04-20",
+              "montoSolicitado": 2466.52,
+              "estado": "Aprobada",
+              "tipo": "DESBLOQUEO",
+              "fechaRenovacion": "2025-09-19"
             }
           ]
         }
       ]
     },
     {
-      "dpi": "112233445",
-      "nombre": "Pedro",
-      "apellido": "Mart\u00EDnez",
-      "direccion": "Zona 10, Edificio Azul",
-      "telefono": "33445566",
-      "email": "pedro.martinez@example.com",
+      "dpi": "7945510243672",
+      "nombre": "Zoé",
+      "apellido": "Montoya",
+      "direccion": "Privada Hidalgo 299 Interior 370, San Sergio de la Montaña, TAMPS 60799",
+      "telefono": "07338420202",
+      "email": "wde-la-cruz@despacho.net",
       "genero": "M",
-      "nacimiento": "30/7/1988",
-      "nacionalidad": "SV",
-      "nit": 789012,
+      "nacimiento": "1975-07-01",
+      "nacionalidad": "Guatemalteca",
+      "nit": 8181214,
       "estado": 0,
       "tarjetas": [
         {
-          "numeroTarjeta": "3400-0000-0000-009",
-          "fechaExpiracion": "09/24",
-          "cvv": "001",
-          "pin": "1357",
-          "limiteCredito": 15000,
-          "saldoActual": 12400,
-          "estado": 0,
-          "tipo": "Credito",
+          "numeroTarjeta": "30116612044204",
+          "fechaExpiracion": "07/26",
+          "cvv": "495",
+          "pin": "1684",
+          "limiteCredito": 0,
+          "saldoActual": 2778.89,
+          "estado": 1,
+          "tipo": "DEBITO",
           "historialTransacciones": [
             {
-              "fecha": "2023-09-28",
-              "hora": "12:00:00",
-              "monto": 2000,
-              "tipo": "transferencia",
-              "descripcion": "Pago de factura",
+              "fecha": "2025-04-27",
+              "hora": "12:59:05",
+              "monto": 190.8,
+              "tipo": "Retiro",
+              "descripcion": "vitae",
+              "autorizada": false
+            },
+            {
+              "fecha": "2025-04-16",
+              "hora": "07:33:19",
+              "monto": 299.21,
+              "tipo": "Compra",
+              "descripcion": "alias",
+              "autorizada": false
+            }
+          ],
+          "solicitudes": [
+            {
+              "fechaSolicitud": "2025-01-23",
+              "montoSolicitado": 785.76,
+              "estado": "Pendiente",
+              "tipo": "DESBLOQUEO",
+              "fechaRenovacion": "2025-09-01"
+            },
+            {
+              "fechaSolicitud": "2025-05-07",
+              "montoSolicitado": 2384.08,
+              "estado": "Pendiente",
+              "tipo": "AUMENTO",
+              "fechaRenovacion": "2025-09-26"
+            }
+          ]
+        },
+        {
+          "numeroTarjeta": "2720593829470672",
+          "fechaExpiracion": "06/29",
+          "cvv": "937",
+          "pin": "8712",
+          "limiteCredito": 6705,
+          "saldoActual": 1364.91,
+          "estado": 1,
+          "tipo": "CREDITO",
+          "historialTransacciones": [
+            {
+              "fecha": "2025-01-12",
+              "hora": "08:50:49",
+              "monto": 276.84,
+              "tipo": "Compra",
+              "descripcion": "aliquid",
+              "autorizada": true
+            },
+            {
+              "fecha": "2025-03-20",
+              "hora": "04:55:52",
+              "monto": 157.08,
+              "tipo": "Retiro",
+              "descripcion": "alias",
               "autorizada": true
             }
           ],
           "solicitudes": [
             {
-              "fechaSolicitud": "2023-09-30",
-              "montoSolicitado": null,
-              "estado": "pendiente",
-              "tipo": "Desbloqueo",
-              "fechaRenovacion": null
+              "fechaSolicitud": "2025-04-14",
+              "montoSolicitado": 544.87,
+              "estado": "Pendiente",
+              "tipo": "AUMENTO",
+              "fechaRenovacion": "2025-07-16"
+            },
+            {
+              "fechaSolicitud": "2025-04-25",
+              "montoSolicitado": 788.46,
+              "estado": "Rechazada",
+              "tipo": "DESBLOQUEO",
+              "fechaRenovacion": "2025-06-29"
             }
           ]
         }
       ]
     },
     {
-      "dpi": "665544332",
-      "nombre": "Luc\u00EDa",
-      "apellido": "Hern\u00E1ndez",
-      "direccion": "Colonia Las Flores #78",
-      "telefono": "55443322",
-      "email": "lucia.hernandez@example.com",
+      "dpi": "9729473813448",
+      "nombre": "Enrique",
+      "apellido": "Almanza",
+      "direccion": "Diagonal Djibouti 464 632, Nueva Haití, CAMP 47554-4119",
+      "telefono": "896.793.1314",
+      "email": "blancobruno@mejia-zambrano.org",
       "genero": "F",
-      "nacimiento": "10/12/1990",
-      "nacionalidad": "HN",
-      "nit": 112233,
+      "nacimiento": "1958-05-10",
+      "nacionalidad": "Guatemalteca",
+      "nit": 2144146,
       "estado": 1,
       "tarjetas": [
         {
-          "numeroTarjeta": "3782-822463-10005",
-          "fechaExpiracion": "03/26",
-          "cvv": "456",
-          "pin": "8642",
-          "limiteCredito": 8000,
-          "saldoActual": 3200.75,
+          "numeroTarjeta": "4086529485497809301",
+          "fechaExpiracion": "02/28",
+          "cvv": "627",
+          "pin": "8592",
+          "limiteCredito": 0,
+          "saldoActual": 2669.71,
           "estado": 1,
-          "tipo": "Credito",
+          "tipo": "DEBITO",
           "historialTransacciones": [
             {
-              "fecha": "2023-10-05",
-              "hora": "16:20:00",
-              "monto": 1200,
-              "tipo": "compra",
-              "descripcion": "Equipo electr\u00F3nico",
-              "autorizada": true
+              "fecha": "2025-01-02",
+              "hora": "05:17:37",
+              "monto": 350.61,
+              "tipo": "Retiro",
+              "descripcion": "magni",
+              "autorizada": false
+            },
+            {
+              "fecha": "2025-01-11",
+              "hora": "02:13:12",
+              "monto": 471.64,
+              "tipo": "Compra",
+              "descripcion": "nisi",
+              "autorizada": false
             }
           ],
           "solicitudes": [
             {
-              "fechaSolicitud": "2023-10-10",
-              "montoSolicitado": null,
-              "estado": "aprobado",
-              "tipo": "Renovacion",
-              "fechaRenovacion": "2026-03-01"
+              "fechaSolicitud": "2025-01-14",
+              "montoSolicitado": 4654.14,
+              "estado": "Rechazada",
+              "tipo": "AUMENTO",
+              "fechaRenovacion": "2025-10-19"
             },
             {
-              "fechaSolicitud": "2023-10-10",
-              "montoSolicitado": 3000,
-              "estado": "pendiente",
-              "tipo": "Aumento",
-              "fechaRenovacion": null
+              "fechaSolicitud": "2025-03-14",
+              "montoSolicitado": 2983.18,
+              "estado": "Aprobada",
+              "tipo": "AUMENTO",
+              "fechaRenovacion": "2025-08-21"
+            }
+          ]
+        },
+        {
+          "numeroTarjeta": "3597233437292287",
+          "fechaExpiracion": "04/34",
+          "cvv": "066",
+          "pin": "5918",
+          "limiteCredito": 6441,
+          "saldoActual": 2163.98,
+          "estado": 1,
+          "tipo": "CREDITO",
+          "historialTransacciones": [
+            {
+              "fecha": "2025-03-05",
+              "hora": "07:58:48",
+              "monto": 450.64,
+              "tipo": "Retiro",
+              "descripcion": "expedita",
+              "autorizada": true
+            },
+            {
+              "fecha": "2025-01-16",
+              "hora": "21:46:08",
+              "monto": 255.0,
+              "tipo": "Compra",
+              "descripcion": "modi",
+              "autorizada": false
+            }
+          ],
+          "solicitudes": [
+            {
+              "fechaSolicitud": "2025-02-07",
+              "montoSolicitado": 638.67,
+              "estado": "Rechazada",
+              "tipo": "AUMENTO",
+              "fechaRenovacion": "2025-09-04"
+            },
+            {
+              "fechaSolicitud": "2025-03-30",
+              "montoSolicitado": 2455.13,
+              "estado": "Aprobada",
+              "tipo": "RENOVACION",
+              "fechaRenovacion": "2025-09-15"
             }
           ]
         }
       ]
     },
     {
-      "dpi": "DPI",
-      "nombre": "Nombre",
-      "apellido": "Apellido",
-      "direccion": "Direccion",
-      "telefono": "Telefono",
-      "email": "Email",
+      "dpi": "9518981974645",
+      "nombre": "Bruno",
+      "apellido": "Aguayo",
+      "direccion": "Cerrada Norte Montaño 385 Interior 477, San Daniel los altos, MEX 01840-1055",
+      "telefono": "442.272.8385x66508",
+      "email": "teodoro58@gmail.com",
       "genero": "M",
-      "nacimiento": "Nacimiento",
-      "nacionalidad": "Nacionalidad",
-      "nit": 11111,
-      "estado": 1,
-      "tarjetas": []
+      "nacimiento": "1992-03-07",
+      "nacionalidad": "Guatemalteca",
+      "nit": 6065094,
+      "estado": 0,
+      "tarjetas": [
+        {
+          "numeroTarjeta": "343929679886800",
+          "fechaExpiracion": "11/34",
+          "cvv": "046",
+          "pin": "3967",
+          "limiteCredito": 0,
+          "saldoActual": 2346.07,
+          "estado": 1,
+          "tipo": "DEBITO",
+          "historialTransacciones": [
+            {
+              "fecha": "2025-04-07",
+              "hora": "15:36:39",
+              "monto": 439.52,
+              "tipo": "Retiro",
+              "descripcion": "nulla",
+              "autorizada": true
+            },
+            {
+              "fecha": "2025-03-20",
+              "hora": "11:46:55",
+              "monto": 235.22,
+              "tipo": "Compra",
+              "descripcion": "ratione",
+              "autorizada": false
+            }
+          ],
+          "solicitudes": [
+            {
+              "fechaSolicitud": "2025-01-24",
+              "montoSolicitado": 2341.04,
+              "estado": "Aprobada",
+              "tipo": "AUMENTO",
+              "fechaRenovacion": "2025-08-29"
+            },
+            {
+              "fechaSolicitud": "2025-03-13",
+              "montoSolicitado": 920.26,
+              "estado": "Rechazada",
+              "tipo": "AUMENTO",
+              "fechaRenovacion": "2025-10-05"
+            }
+          ]
+        },
+        {
+          "numeroTarjeta": "30490202018575",
+          "fechaExpiracion": "07/34",
+          "cvv": "861",
+          "pin": "9994",
+          "limiteCredito": 3987,
+          "saldoActual": 2064.98,
+          "estado": 1,
+          "tipo": "CREDITO",
+          "historialTransacciones": [
+            {
+              "fecha": "2025-02-10",
+              "hora": "21:07:01",
+              "monto": 470.39,
+              "tipo": "Retiro",
+              "descripcion": "impedit",
+              "autorizada": false
+            },
+            {
+              "fecha": "2025-01-16",
+              "hora": "02:04:06",
+              "monto": 240.14,
+              "tipo": "Compra",
+              "descripcion": "officiis",
+              "autorizada": false
+            }
+          ],
+          "solicitudes": [
+            {
+              "fechaSolicitud": "2025-04-02",
+              "montoSolicitado": 1687.84,
+              "estado": "Rechazada",
+              "tipo": "DESBLOQUEO",
+              "fechaRenovacion": "2025-06-22"
+            },
+            {
+              "fechaSolicitud": "2025-03-09",
+              "montoSolicitado": 1701.32,
+              "estado": "Rechazada",
+              "tipo": "RENOVACION",
+              "fechaRenovacion": "2025-07-07"
+            }
+          ]
+        }
+      ]
     },
     {
-      "dpi": "DPI",
-      "nombre": "Nombre",
-      "apellido": "Apellido",
-      "direccion": "Direccion",
-      "telefono": "Telefono",
-      "email": "Email",
+      "dpi": "6765938500221",
+      "nombre": "Arcelia",
+      "apellido": "Guevara",
+      "direccion": "Diagonal Norte Fierro 114 Edif. 066 , Depto. 800, Nueva Tonga, SLP 49178",
+      "telefono": "363-390-1842x47445",
+      "email": "jiminezesmeralda@gmail.com",
       "genero": "M",
-      "nacimiento": "Nacimiento",
-      "nacionalidad": "Nacionalidad",
-      "nit": 11111,
+      "nacimiento": "2001-07-11",
+      "nacionalidad": "Guatemalteca",
+      "nit": 3439484,
       "estado": 1,
-      "tarjetas": []
+      "tarjetas": [
+        {
+          "numeroTarjeta": "180065588566872",
+          "fechaExpiracion": "05/27",
+          "cvv": "413",
+          "pin": "5786",
+          "limiteCredito": 0,
+          "saldoActual": 3169.9,
+          "estado": 1,
+          "tipo": "DEBITO",
+          "historialTransacciones": [
+            {
+              "fecha": "2025-03-02",
+              "hora": "21:40:11",
+              "monto": 387.93,
+              "tipo": "Retiro",
+              "descripcion": "maxime",
+              "autorizada": false
+            },
+            {
+              "fecha": "2025-02-04",
+              "hora": "22:36:47",
+              "monto": 358.23,
+              "tipo": "Compra",
+              "descripcion": "commodi",
+              "autorizada": false
+            }
+          ],
+          "solicitudes": [
+            {
+              "fechaSolicitud": "2025-04-23",
+              "montoSolicitado": 691.85,
+              "estado": "Aprobada",
+              "tipo": "DESBLOQUEO",
+              "fechaRenovacion": "2025-07-03"
+            },
+            {
+              "fechaSolicitud": "2025-04-01",
+              "montoSolicitado": 1084.72,
+              "estado": "Rechazada",
+              "tipo": "DESBLOQUEO",
+              "fechaRenovacion": "2025-10-24"
+            }
+          ]
+        },
+        {
+          "numeroTarjeta": "372631307592875",
+          "fechaExpiracion": "05/35",
+          "cvv": "054",
+          "pin": "7101",
+          "limiteCredito": 6029,
+          "saldoActual": 4495.2,
+          "estado": 1,
+          "tipo": "CREDITO",
+          "historialTransacciones": [
+            {
+              "fecha": "2025-04-30",
+              "hora": "22:11:18",
+              "monto": 296.26,
+              "tipo": "Retiro",
+              "descripcion": "illo",
+              "autorizada": true
+            },
+            {
+              "fecha": "2025-02-07",
+              "hora": "05:42:15",
+              "monto": 447.45,
+              "tipo": "Retiro",
+              "descripcion": "placeat",
+              "autorizada": true
+            }
+          ],
+          "solicitudes": [
+            {
+              "fechaSolicitud": "2025-04-10",
+              "montoSolicitado": 2412.21,
+              "estado": "Pendiente",
+              "tipo": "AUMENTO",
+              "fechaRenovacion": "2025-07-13"
+            },
+            {
+              "fechaSolicitud": "2025-04-21",
+              "montoSolicitado": 4412.23,
+              "estado": "Pendiente",
+              "tipo": "DESBLOQUEO",
+              "fechaRenovacion": "2025-10-09"
+            }
+          ]
+        }
+      ]
     },
     {
-      "dpi": "3581244680101",
-      "nombre": "Denisse",
-      "apellido": "Navas",
-      "direccion": "24 calle",
-      "telefono": "47953795",
-      "email": "marynavas170204@gmail.com",
+      "dpi": "8594810933033",
+      "nombre": "Eugenio",
+      "apellido": "Montoya",
+      "direccion": "Viaducto ex República Yugoslava de Macedonia 813 706, Vieja ex República Yugoslava de Macedonia, DGO 84111-2925",
+      "telefono": "06036822641",
+      "email": "concepcionalmaraz@hotmail.com",
       "genero": "F",
-      "nacimiento": "17/02/04",
+      "nacimiento": "1971-05-19",
       "nacionalidad": "Guatemalteca",
-      "nit": 55555,
-      "estado": 1,
-      "tarjetas": []
+      "nit": 8311169,
+      "estado": 0,
+      "tarjetas": [
+        {
+          "numeroTarjeta": "372825334258803",
+          "fechaExpiracion": "02/32",
+          "cvv": "100",
+          "pin": "2348",
+          "limiteCredito": 0,
+          "saldoActual": 3476.3,
+          "estado": 1,
+          "tipo": "DEBITO",
+          "historialTransacciones": [
+            {
+              "fecha": "2025-03-13",
+              "hora": "01:23:39",
+              "monto": 335.93,
+              "tipo": "Compra",
+              "descripcion": "illum",
+              "autorizada": true
+            },
+            {
+              "fecha": "2025-03-20",
+              "hora": "00:27:23",
+              "monto": 209.11,
+              "tipo": "Retiro",
+              "descripcion": "nam",
+              "autorizada": false
+            }
+          ],
+          "solicitudes": [
+            {
+              "fechaSolicitud": "2025-01-29",
+              "montoSolicitado": 4734.62,
+              "estado": "Aprobada",
+              "tipo": "AUMENTO",
+              "fechaRenovacion": "2025-09-25"
+            },
+            {
+              "fechaSolicitud": "2025-02-24",
+              "montoSolicitado": 4147.85,
+              "estado": "Aprobada",
+              "tipo": "AUMENTO",
+              "fechaRenovacion": "2025-09-28"
+            }
+          ]
+        },
+        {
+          "numeroTarjeta": "2364140028568830",
+          "fechaExpiracion": "02/26",
+          "cvv": "319",
+          "pin": "3925",
+          "limiteCredito": 8516,
+          "saldoActual": 3162.42,
+          "estado": 1,
+          "tipo": "CREDITO",
+          "historialTransacciones": [
+            {
+              "fecha": "2025-02-25",
+              "hora": "18:09:43",
+              "monto": 344.08,
+              "tipo": "Compra",
+              "descripcion": "fugit",
+              "autorizada": true
+            },
+            {
+              "fecha": "2025-02-23",
+              "hora": "13:07:44",
+              "monto": 51.34,
+              "tipo": "Retiro",
+              "descripcion": "delectus",
+              "autorizada": false
+            }
+          ],
+          "solicitudes": [
+            {
+              "fechaSolicitud": "2025-02-08",
+              "montoSolicitado": 1517.25,
+              "estado": "Aprobada",
+              "tipo": "RENOVACION",
+              "fechaRenovacion": "2025-09-30"
+            },
+            {
+              "fechaSolicitud": "2025-01-04",
+              "montoSolicitado": 4289.68,
+              "estado": "Rechazada",
+              "tipo": "RENOVACION",
+              "fechaRenovacion": "2025-08-21"
+            }
+          ]
+        }
+      ]
     },
     {
-      "dpi": "3581244680101",
-      "nombre": "Denisse",
-      "apellido": "Navas",
-      "direccion": "24 calle",
-      "telefono": "47953795",
-      "email": "marynavas170204@gmail.com",
-      "genero": "F",
-      "nacimiento": "17/02/04",
+      "dpi": "9843950332296",
+      "nombre": "Marisela",
+      "apellido": "Romero",
+      "direccion": "Privada Querétaro 580 Edif. 140 , Depto. 609, Vieja El Salvador, SON 27612-3853",
+      "telefono": "(662)336-9835",
+      "email": "bvasquez@hotmail.com",
+      "genero": "M",
+      "nacimiento": "1996-02-22",
       "nacionalidad": "Guatemalteca",
-      "nit": 55555,
+      "nit": 9106440,
       "estado": 1,
-      "tarjetas": []
+      "tarjetas": [
+        {
+          "numeroTarjeta": "377356115564552",
+          "fechaExpiracion": "07/26",
+          "cvv": "235",
+          "pin": "1916",
+          "limiteCredito": 0,
+          "saldoActual": 2111.26,
+          "estado": 1,
+          "tipo": "DEBITO",
+          "historialTransacciones": [
+            {
+              "fecha": "2025-02-13",
+              "hora": "14:00:09",
+              "monto": 96.84,
+              "tipo": "Compra",
+              "descripcion": "eius",
+              "autorizada": true
+            },
+            {
+              "fecha": "2025-04-06",
+              "hora": "20:05:50",
+              "monto": 390.03,
+              "tipo": "Retiro",
+              "descripcion": "error",
+              "autorizada": false
+            }
+          ],
+          "solicitudes": [
+            {
+              "fechaSolicitud": "2025-04-25",
+              "montoSolicitado": 1738.42,
+              "estado": "Pendiente",
+              "tipo": "AUMENTO",
+              "fechaRenovacion": "2025-10-04"
+            },
+            {
+              "fechaSolicitud": "2025-01-06",
+              "montoSolicitado": 2957.09,
+              "estado": "Pendiente",
+              "tipo": "AUMENTO",
+              "fechaRenovacion": "2025-10-20"
+            }
+          ]
+        },
+        {
+          "numeroTarjeta": "4891003279044364",
+          "fechaExpiracion": "01/35",
+          "cvv": "042",
+          "pin": "9928",
+          "limiteCredito": 4856,
+          "saldoActual": 1440.78,
+          "estado": 1,
+          "tipo": "CREDITO",
+          "historialTransacciones": [
+            {
+              "fecha": "2025-01-13",
+              "hora": "03:09:46",
+              "monto": 88.34,
+              "tipo": "Compra",
+              "descripcion": "reiciendis",
+              "autorizada": true
+            },
+            {
+              "fecha": "2025-05-04",
+              "hora": "11:37:34",
+              "monto": 404.61,
+              "tipo": "Retiro",
+              "descripcion": "accusamus",
+              "autorizada": false
+            }
+          ],
+          "solicitudes": [
+            {
+              "fechaSolicitud": "2025-03-29",
+              "montoSolicitado": 729.02,
+              "estado": "Aprobada",
+              "tipo": "DESBLOQUEO",
+              "fechaRenovacion": "2025-10-13"
+            },
+            {
+              "fechaSolicitud": "2025-04-02",
+              "montoSolicitado": 4565.49,
+              "estado": "Rechazada",
+              "tipo": "RENOVACION",
+              "fechaRenovacion": "2025-06-23"
+            }
+          ]
+        }
+      ]
     },
     {
-      "dpi": "3581244680101",
-      "nombre": "Denisse",
-      "apellido": "Navas",
-      "direccion": "24 calle",
-      "telefono": "47953795",
-      "email": "marynavas170204@gmail.com",
+      "dpi": "3088086847984",
+      "nombre": "Zeferino",
+      "apellido": "Hernádez",
+      "direccion": "Peatonal Noruega 867 317, San Miriam los altos, OAX 07456",
+      "telefono": "(040)532-4902x6140",
+      "email": "dulce48@hotmail.com",
       "genero": "F",
-      "nacimiento": "17/02/04",
+      "nacimiento": "1987-03-10",
       "nacionalidad": "Guatemalteca",
-      "nit": 55555,
+      "nit": 2279006,
+      "estado": 0,
+      "tarjetas": [
+        {
+          "numeroTarjeta": "3514683731495699",
+          "fechaExpiracion": "12/34",
+          "cvv": "131",
+          "pin": "5625",
+          "limiteCredito": 0,
+          "saldoActual": 912.79,
+          "estado": 1,
+          "tipo": "DEBITO",
+          "historialTransacciones": [
+            {
+              "fecha": "2025-01-09",
+              "hora": "20:59:48",
+              "monto": 399.66,
+              "tipo": "Compra",
+              "descripcion": "hic",
+              "autorizada": true
+            },
+            {
+              "fecha": "2025-02-25",
+              "hora": "18:48:29",
+              "monto": 59.13,
+              "tipo": "Compra",
+              "descripcion": "eaque",
+              "autorizada": true
+            }
+          ],
+          "solicitudes": [
+            {
+              "fechaSolicitud": "2025-03-11",
+              "montoSolicitado": 1736.06,
+              "estado": "Pendiente",
+              "tipo": "RENOVACION",
+              "fechaRenovacion": "2025-10-03"
+            },
+            {
+              "fechaSolicitud": "2025-04-30",
+              "montoSolicitado": 4575.27,
+              "estado": "Rechazada",
+              "tipo": "DESBLOQUEO",
+              "fechaRenovacion": "2025-06-21"
+            }
+          ]
+        },
+        {
+          "numeroTarjeta": "4751454485651105",
+          "fechaExpiracion": "10/26",
+          "cvv": "472",
+          "pin": "5343",
+          "limiteCredito": 3658,
+          "saldoActual": 4529.09,
+          "estado": 1,
+          "tipo": "CREDITO",
+          "historialTransacciones": [
+            {
+              "fecha": "2025-03-01",
+              "hora": "17:16:05",
+              "monto": 246.98,
+              "tipo": "Compra",
+              "descripcion": "nemo",
+              "autorizada": true
+            },
+            {
+              "fecha": "2025-01-29",
+              "hora": "13:37:39",
+              "monto": 417.94,
+              "tipo": "Retiro",
+              "descripcion": "numquam",
+              "autorizada": true
+            }
+          ],
+          "solicitudes": [
+            {
+              "fechaSolicitud": "2025-03-23",
+              "montoSolicitado": 1454.62,
+              "estado": "Aprobada",
+              "tipo": "AUMENTO",
+              "fechaRenovacion": "2025-10-30"
+            },
+            {
+              "fechaSolicitud": "2025-04-10",
+              "montoSolicitado": 4211.77,
+              "estado": "Rechazada",
+              "tipo": "RENOVACION",
+              "fechaRenovacion": "2025-06-11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dpi": "6216623527077",
+      "nombre": "Nadia",
+      "apellido": "Gutiérrez",
+      "direccion": "Diagonal Coahuila de Zaragoza 088 Interior 569, Vieja Niger, PUE 90037",
+      "telefono": "359.469.2935x5681",
+      "email": "estela35@proyectos.net",
+      "genero": "F",
+      "nacimiento": "1957-05-03",
+      "nacionalidad": "Guatemalteca",
+      "nit": 5491170,
       "estado": 1,
-      "tarjetas": []
+      "tarjetas": [
+        {
+          "numeroTarjeta": "180092046298138",
+          "fechaExpiracion": "08/31",
+          "cvv": "875",
+          "pin": "1421",
+          "limiteCredito": 0,
+          "saldoActual": 4861.68,
+          "estado": 1,
+          "tipo": "DEBITO",
+          "historialTransacciones": [
+            {
+              "fecha": "2025-01-16",
+              "hora": "08:59:44",
+              "monto": 144.67,
+              "tipo": "Retiro",
+              "descripcion": "rem",
+              "autorizada": false
+            },
+            {
+              "fecha": "2025-05-08",
+              "hora": "00:15:35",
+              "monto": 479.65,
+              "tipo": "Compra",
+              "descripcion": "dolore",
+              "autorizada": false
+            }
+          ],
+          "solicitudes": [
+            {
+              "fechaSolicitud": "2025-02-01",
+              "montoSolicitado": 4880.54,
+              "estado": "Rechazada",
+              "tipo": "DESBLOQUEO",
+              "fechaRenovacion": "2025-06-29"
+            },
+            {
+              "fechaSolicitud": "2025-04-15",
+              "montoSolicitado": 1686.53,
+              "estado": "Pendiente",
+              "tipo": "DESBLOQUEO",
+              "fechaRenovacion": "2025-08-06"
+            }
+          ]
+        },
+        {
+          "numeroTarjeta": "3588319964342453",
+          "fechaExpiracion": "11/29",
+          "cvv": "515",
+          "pin": "3654",
+          "limiteCredito": 3175,
+          "saldoActual": 4043.05,
+          "estado": 1,
+          "tipo": "CREDITO",
+          "historialTransacciones": [
+            {
+              "fecha": "2025-01-26",
+              "hora": "14:09:43",
+              "monto": 106.68,
+              "tipo": "Retiro",
+              "descripcion": "inventore",
+              "autorizada": false
+            },
+            {
+              "fecha": "2025-03-16",
+              "hora": "12:32:40",
+              "monto": 70.59,
+              "tipo": "Compra",
+              "descripcion": "repellat",
+              "autorizada": false
+            }
+          ],
+          "solicitudes": [
+            {
+              "fechaSolicitud": "2025-04-24",
+              "montoSolicitado": 3963.48,
+              "estado": "Pendiente",
+              "tipo": "DESBLOQUEO",
+              "fechaRenovacion": "2025-07-27"
+            },
+            {
+              "fechaSolicitud": "2025-05-09",
+              "montoSolicitado": 3207.5,
+              "estado": "Rechazada",
+              "tipo": "RENOVACION",
+              "fechaRenovacion": "2025-06-23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dpi": "2649330533224",
+      "nombre": "Enrique",
+      "apellido": "Mejía",
+      "direccion": "Callejón Islandia 652 Edif. 297 , Depto. 997, Nueva Angola, ZAC 47708",
+      "telefono": "032.090.9421",
+      "email": "monica57@hotmail.com",
+      "genero": "M",
+      "nacimiento": "1991-04-06",
+      "nacionalidad": "Guatemalteca",
+      "nit": 4752351,
+      "estado": 0,
+      "tarjetas": [
+        {
+          "numeroTarjeta": "4645832252821438818",
+          "fechaExpiracion": "06/27",
+          "cvv": "601",
+          "pin": "7139",
+          "limiteCredito": 0,
+          "saldoActual": 4538.03,
+          "estado": 1,
+          "tipo": "DEBITO",
+          "historialTransacciones": [
+            {
+              "fecha": "2025-01-10",
+              "hora": "03:30:56",
+              "monto": 309.39,
+              "tipo": "Retiro",
+              "descripcion": "repellendus",
+              "autorizada": false
+            },
+            {
+              "fecha": "2025-01-15",
+              "hora": "13:30:54",
+              "monto": 416.72,
+              "tipo": "Compra",
+              "descripcion": "tenetur",
+              "autorizada": true
+            }
+          ],
+          "solicitudes": [
+            {
+              "fechaSolicitud": "2025-02-13",
+              "montoSolicitado": 644.41,
+              "estado": "Pendiente",
+              "tipo": "RENOVACION",
+              "fechaRenovacion": "2025-10-13"
+            },
+            {
+              "fechaSolicitud": "2025-02-21",
+              "montoSolicitado": 3295.53,
+              "estado": "Pendiente",
+              "tipo": "DESBLOQUEO",
+              "fechaRenovacion": "2025-06-20"
+            }
+          ]
+        },
+        {
+          "numeroTarjeta": "3549302259244517",
+          "fechaExpiracion": "12/31",
+          "cvv": "084",
+          "pin": "2371",
+          "limiteCredito": 4553,
+          "saldoActual": 4731.37,
+          "estado": 1,
+          "tipo": "CREDITO",
+          "historialTransacciones": [
+            {
+              "fecha": "2025-02-16",
+              "hora": "12:07:06",
+              "monto": 162.62,
+              "tipo": "Retiro",
+              "descripcion": "iste",
+              "autorizada": true
+            },
+            {
+              "fecha": "2025-04-06",
+              "hora": "12:58:25",
+              "monto": 409.6,
+              "tipo": "Compra",
+              "descripcion": "quasi",
+              "autorizada": true
+            }
+          ],
+          "solicitudes": [
+            {
+              "fechaSolicitud": "2025-03-25",
+              "montoSolicitado": 1549.4,
+              "estado": "Rechazada",
+              "tipo": "RENOVACION",
+              "fechaRenovacion": "2025-11-05"
+            },
+            {
+              "fechaSolicitud": "2025-04-05",
+              "montoSolicitado": 4318.71,
+              "estado": "Rechazada",
+              "tipo": "AUMENTO",
+              "fechaRenovacion": "2025-08-26"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
