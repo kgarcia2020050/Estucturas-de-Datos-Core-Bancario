@@ -38,3 +38,4 @@ C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\obj\
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\obj\Debug\net8.0\ProyectiFinal.pdb
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\obj\Debug\net8.0\ProyectiFinal.genruntimeconfig.cache
 C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\obj\Debug\net8.0\ref\ProyectiFinal.dll
+C:\Users\KennethGarcia\Documents\C#\Universidad\ProyectoFinal\ProyectiFinal\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
